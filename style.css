@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo {
+    width: 300px;
+    height: 90px;
+}
+
+nav {
+    background-color: #6e6e6e;
+}
+
+nav ul {
+    margin: 0px;
+    color: white;
+    padding: 10px;
+}
+nav ul span a:hover{
+    transition-duration: 400ms;
+    color: rgb(93, 255, 93);
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#about h2 {
+    font-size: xx-large;
+    /* background-color: rgb(195, 227, 255); */
+    padding-top: 20px;
+    margin: 0px;
+}
+
+#about {
+    background-color: rgb(184, 222, 255);
+}
+
+.first-part {
+    width: 50%;
+    padding: 6rem;
+    border: #333 solid 2px;
+    border-radius: 10px;
+    /* background-color: rgb(171, 216, 255); */
+}
+
+.second-part {
+    width: 100%;
+    padding: 2rem;
+}
+
+.article .second-part p {
+    font-size: 1.1rem;
+    padding: 13px 0px
+}
+
+.inner-div {
+    margin: 2rem 0px;
+}
+
+.article {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+#audio {
+    display: hidden;
+}
+
+#yt-video {
+    height: 500px;
+    width: 100%;
+}
+
+#services {
+    padding: 5rem;
+    background-color: rgb(220, 238, 255);
+}
+
+#services ul {
+    margin: 2rem auto;
+}
+
+#services ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#services i:first-child {
+    color: green;
+}
+
+#services ul li {
+    display: inline;
+    margin: 0.5rem 2rem;
+}
+
+#services ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(0, 0, 255);
+    font-size: x-large;
+    transition-duration: 400ms;
+
+}
+
+#details i:first-child{
+    color: rgb(136, 0, 0);
+}
+#details{
+    padding:2rem 0.9rem;
+    background-color: rgb(198, 198, 255);
+}
+
+tr:hover {
+    background-color: #6d6d6d;
+}
+
+#footer{
+    background-color: rgb(255, 204, 255);
+}
+
+.components{
+    margin: 1.4rem auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.components div address a:hover{
+    color: blue;
+    transition-duration: 400ms;
+    text-decoration: underline;
+}
+.components div address a{
+    color: #333;
+}
+.map{
+    height: 200px;
+    width: 506px;
+}
+.social-media{
+    background-color: #333;
+}
+.social-media a{
+    color: white;
+}
+.social-media a:hover{
+    color: #9bf8ff;
+    transition-duration: 300ms;
+}
+
+.social-media p{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: large;
+}
